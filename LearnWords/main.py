@@ -72,7 +72,7 @@ textColor1 = ((textColor1 & 0xff0000) >> 16, (textColor1 & 0xff00) >> 8, textCol
 textColor2 = 0xaa00aa
 textColor2 = ((textColor2 & 0xff0000) >> 16, (textColor2 & 0xff00) >> 8, textColor2 & 0xff)
 
-#一下图片适配电脑屏幕，请把生成目标文件夹修改为你自己的路径
+#以下代码，图片适配电脑屏幕，请把生成目标文件夹修改为你自己的路径
 destPath="F:/图片/Make/PC2/"
 # 把0改为1就可以运行
 if 0:
@@ -88,7 +88,7 @@ if 0:
         destPath = "pc_words_list_%03d.jpg" % (i+1)
         CreateTextImage(i, device, screenSize, destPath, allwords[i].strip(), bkcolor, textColor1, fontsize, textColor2, fontsize2, textPos)
 
-#一下图片适配手机屏幕，请把生成目标文件夹修改为你自己的路径
+#以下代码，图片适配手机屏幕，请修改屏幕尺寸，请把生成目标文件夹修改为你自己的路径
 destPath="F:/图片/Make/Phone/"
 # 把0改为1就可以运行
 if 0:
